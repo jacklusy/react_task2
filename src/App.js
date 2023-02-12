@@ -5,6 +5,8 @@ import 'bootstrap/dist/css/bootstrap.min.css';
 import CollapsibleExample from "./componant/header";
 import HeaderAndFooterExample from "./componant/footer";
 import GroupExample from "./componant/card_component";
+import Counter from "./componant/incre_decre";
+import Calculator from "./componant/Calculator";
 
 function App() {
   const Message= [
@@ -30,9 +32,11 @@ function App() {
 
   return (
    <>
-      <CollapsibleExample />
-      <GroupExample book={Message}/>
-      <HeaderAndFooterExample />
+      {/* <CollapsibleExample /> */}
+      {/* <GroupExample jack={Message}/> */}
+      {/* <HeaderAndFooterExample /> */}
+      <Counter />
+      <Calculator />
    </>
   );
 }

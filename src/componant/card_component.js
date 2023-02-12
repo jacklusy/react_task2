@@ -7,7 +7,7 @@ class GroupExample extends React.Component {
             // console.log(this.props.jack);
             return (
                 <div>
-                    {this.props.book.map((data)=>
+                    {this.props.jack.map((data)=>
                     <CardGroup>
                     <Card>
                         <Card.Img className='img' variant="top" src={data.bookImage} />
@@ -31,3 +31,4 @@ class GroupExample extends React.Component {
 }
 
 export default GroupExample;
+
