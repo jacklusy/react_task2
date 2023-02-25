@@ -11,5 +11,3 @@ const Nav2 = () => {
 }
 
 export default Nav2
-
-// what the hell
